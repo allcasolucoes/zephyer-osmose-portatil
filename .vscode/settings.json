@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "device.h": "c",
+        "gpio.h": "c",
+        "printk.h": "c",
+        "zephyr.h": "c",
+        "light-indicate.h": "c",
+        "func.h": "c",
+        "light_indicator.h": "c"
+    }
+}
