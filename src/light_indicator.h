@@ -12,7 +12,7 @@
 #define DELAY_MS_LED1 100
 #define DELAY_MS_LED2 20
 
-	 void led_thread0(int32_t ms);
+	 void led_thread(int32_t ms);
 
 
 #endif

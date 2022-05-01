@@ -2,7 +2,7 @@
 
 static const struct gpio_dt_spec  led1 = GPIO_DT_SPEC_GET(LED1, gpios);
 
-	 void led_thread0(int32_t ms) {
+	 void led_thread(int32_t ms) {
 	
 	int ret;
 	if(!z_device_is_ready(led1.port)) {

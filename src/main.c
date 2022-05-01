@@ -15,7 +15,7 @@ void main(void) {
 } // end main
 
 void blink1(void) {
-	led_thread0(500);
+	led_thread(500);
 }
 
 /* void blink2(void) {
