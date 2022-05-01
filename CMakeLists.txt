@@ -4,5 +4,6 @@ project(portatil)
 
 target_sources(app PRIVATE src/main.c
  src/light_indicator.c
+ src/wifi_init.c
  
  )

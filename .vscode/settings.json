@@ -6,6 +6,7 @@
         "zephyr.h": "c",
         "light-indicate.h": "c",
         "func.h": "c",
-        "light_indicator.h": "c"
+        "light_indicator.h": "c",
+        "wifi_init.h": "c"
     }
 }
