@@ -1,10 +1,12 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "zephyr",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/allca/zephyrproject/zephyr/include"
+                "~/zephyrproject/zephyr/include",
+                "~/zephyrproject/zephyr/include/zephyr",
+                "${workspaceFolder}/src/"
             ],
             "defines": [],
             "compilerPath": "~/zephyr-sdk-0.14.1/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
