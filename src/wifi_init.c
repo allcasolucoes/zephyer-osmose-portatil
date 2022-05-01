@@ -1,7 +1,8 @@
-
 #include "wifi_init.h"
 
 
+
+static struct net_mgmt_event_callback dhcp_cb;
 
  void handler_cb(struct net_mgmt_event_callback *cb,
 		    uint32_t mgmt_event, struct net_if *iface)

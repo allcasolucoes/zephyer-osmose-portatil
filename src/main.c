@@ -22,8 +22,7 @@ static const struct led_name_alias led2 = {
 	.spec = GPIO_DT_SPEC_GET_OR(LED2, gpios, {0}),
 };
 
-static struct net_mgmt_event_callback dhcp_cb;
-
+K_FIFO_DEFINE(printk_fifo);
 
 void main(void) {
 
@@ -57,6 +56,7 @@ void main(void) {
 		if (ret != ESP_OK) {
 			printk("connection failed");
 		}
+
 	}
 
 	
@@ -66,9 +66,9 @@ void blink1(void) {
 	led_thread(&led0, 500);
 }
 
- void blink2(void) {
+void blink2(void) {
 	led_thread(&led1, 250);
-}
+}  
  void blink3(void) {
 	led_thread(&led2, 30);
 } 
